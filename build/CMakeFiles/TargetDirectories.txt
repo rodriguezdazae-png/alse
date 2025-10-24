@@ -1,0 +1,3 @@
+/workspaces/alse/build/CMakeFiles/Biblioteca.dir
+/workspaces/alse/build/CMakeFiles/edit_cache.dir
+/workspaces/alse/build/CMakeFiles/rebuild_cache.dir
