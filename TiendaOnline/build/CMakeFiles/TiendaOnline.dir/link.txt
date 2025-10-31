@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/TiendaOnline.dir/src/main.cpp.o CMakeFiles/TiendaOnline.dir/src/Producto.cpp.o -o TiendaOnline 

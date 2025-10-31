@@ -1,0 +1,12 @@
+PROJECT_NAME           = "TiendaOnline"
+OUTPUT_DIRECTORY       = docs
+INPUT                  = include src
+RECURSIVE              = YES
+FILE_PATTERNS          = *.h *.cpp
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+GENERATE_MAN           = NO
+GENERATE_RTF           = NO
+EXTRACT_ALL            = YES
+QUIET                  = NO
+WARN_IF_UNDOCUMENTED   = YES

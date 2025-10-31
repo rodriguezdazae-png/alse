@@ -1,14 +1,14 @@
 cmake_minimum_required(VERSION 3.10)
-project(TiendaOnline)
+project(TiendaOnline VERSION 1.0 LANGUAGES CXX)
 
-# Estándar de C++
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Incluir carpeta de encabezados
-include_directories(include)
+include_directories(${PROJECT_SOURCE_DIR}/include)
 
-# Archivos fuente
-add_executable(TiendaOnline
+set(SOURCES
     src/main.cpp
     src/Producto.cpp
 )
+
+add_executable(${PROJECT_NAME} ${SOURCES})

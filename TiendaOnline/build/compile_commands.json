@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/workspaces/alse/TiendaOnline/build",
+  "command": "/usr/bin/g++  -I/workspaces/alse/TiendaOnline/include -g -std=gnu++17 -o CMakeFiles/TiendaOnline.dir/src/main.cpp.o -c /workspaces/alse/TiendaOnline/src/main.cpp",
+  "file": "/workspaces/alse/TiendaOnline/src/main.cpp",
+  "output": "CMakeFiles/TiendaOnline.dir/src/main.cpp.o"
+},
+{
+  "directory": "/workspaces/alse/TiendaOnline/build",
+  "command": "/usr/bin/g++  -I/workspaces/alse/TiendaOnline/include -g -std=gnu++17 -o CMakeFiles/TiendaOnline.dir/src/Producto.cpp.o -c /workspaces/alse/TiendaOnline/src/Producto.cpp",
+  "file": "/workspaces/alse/TiendaOnline/src/Producto.cpp",
+  "output": "CMakeFiles/TiendaOnline.dir/src/Producto.cpp.o"
+}
+]

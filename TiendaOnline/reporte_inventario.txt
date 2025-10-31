@@ -1,0 +1,19 @@
+REPORTE DE INVENTARIO
+=====================
+
+Producto: Camisa
+Precio: $50000
+Stock: 8
+Valor total: $400000
+---------------------------
+Producto: Pantalon
+Precio: $80000
+Stock: 8
+Valor total: $640000
+---------------------------
+Producto: Zapatos
+Precio: $110000
+Stock: 8
+Valor total: $880000
+---------------------------
+Valor total del inventario: $1.92e+06

@@ -5,52 +5,52 @@
 #include <iostream>
 
 /**
- * @brief Clase que representa un producto en una tienda.
+ * @brief Representa un producto disponible en la tienda en línea.
  */
 class Producto {
 private:
-    std::string nombre;   ///< Nombre del producto
-    float precio;         ///< Precio unitario del producto
-    int stock;            ///< Cantidad disponible en inventario
-    int descuento;        ///< Porcentaje de descuento aplicado
+    std::string nombre;  ///< Nombre del producto
+    float precio;        ///< Precio actual del producto
+    int stock;           ///< Cantidad disponible en inventario
+    int descuento;       ///< Porcentaje de descuento aplicado
 
 public:
     /**
-     * @brief Constructor que inicializa los atributos del producto.
-     * @param nombre Nombre del producto
-     * @param precio Precio unitario
-     * @param stock Cantidad inicial en inventario
-     * @param descuento Porcentaje de descuento
+     * @brief Constructor que inicializa todos los atributos del producto.
+     * @param nombre Nombre del producto.
+     * @param precio Precio base del producto.
+     * @param stock Cantidad disponible en inventario.
+     * @param descuento Porcentaje de descuento.
      */
     Producto(std::string nombre, float precio, int stock, int descuento);
 
     /**
      * @brief Actualiza el precio del producto.
-     * @param nuevoPrecio Nuevo valor del precio.
+     * @param nuevoPrecio Nuevo valor a asignar al precio.
      */
     void actualizarPrecio(float nuevoPrecio);
 
     /**
-     * @brief Muestra un resumen con toda la información del producto.
+     * @brief Muestra todas las características del producto.
      */
     void resumenProducto() const;
 
     /**
-     * @brief Vende una cantidad del producto y retorna el valor total de la venta.
-     * @param cantidad Número de unidades a vender.
-     * @return Valor total de la venta aplicando el descuento.
+     * @brief Disminuye el stock si hay unidades suficientes y retorna el valor de la venta.
+     * @param cantidad Cantidad de unidades a vender.
+     * @return Valor total de la venta, considerando el descuento.
      */
     float vender(int cantidad);
 
     /**
-     * @brief Reabastece el inventario del producto.
-     * @param cantidad Cantidad de productos agregados al stock.
+     * @brief Incrementa el stock del producto.
+     * @param cantidad Cantidad de unidades a agregar al inventario.
      */
     void reabastecer(int cantidad);
 
     /**
-     * @brief Devuelve el valor total del inventario del producto.
-     * @return Valor total del inventario = precio * stock.
+     * @brief Consulta el valor total del inventario de este producto.
+     * @return Valor total del inventario (precio × stock).
      */
     float consultarValorInventario() const;
 };

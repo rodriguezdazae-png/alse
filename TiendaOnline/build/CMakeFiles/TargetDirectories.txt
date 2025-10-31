@@ -1,0 +1,3 @@
+/workspaces/alse/TiendaOnline/build/CMakeFiles/TiendaOnline.dir
+/workspaces/alse/TiendaOnline/build/CMakeFiles/edit_cache.dir
+/workspaces/alse/TiendaOnline/build/CMakeFiles/rebuild_cache.dir
