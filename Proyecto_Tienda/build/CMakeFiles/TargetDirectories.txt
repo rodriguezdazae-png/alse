@@ -1,0 +1,2 @@
+/workspaces/alse/Proyecto_Tienda/build/CMakeFiles/edit_cache.dir
+/workspaces/alse/Proyecto_Tienda/build/CMakeFiles/rebuild_cache.dir

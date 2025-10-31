@@ -1,0 +1,3 @@
+/workspaces/alse/SistemaAlquiler/build/CMakeFiles/SistemaAlquiler.dir
+/workspaces/alse/SistemaAlquiler/build/CMakeFiles/edit_cache.dir
+/workspaces/alse/SistemaAlquiler/build/CMakeFiles/rebuild_cache.dir

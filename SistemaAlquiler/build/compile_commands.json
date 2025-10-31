@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/workspaces/alse/SistemaAlquiler/build",
+  "command": "/usr/bin/g++  -I/workspaces/alse/SistemaAlquiler/include -g -std=gnu++17 -o CMakeFiles/SistemaAlquiler.dir/src/main.cpp.o -c /workspaces/alse/SistemaAlquiler/src/main.cpp",
+  "file": "/workspaces/alse/SistemaAlquiler/src/main.cpp",
+  "output": "CMakeFiles/SistemaAlquiler.dir/src/main.cpp.o"
+},
+{
+  "directory": "/workspaces/alse/SistemaAlquiler/build",
+  "command": "/usr/bin/g++  -I/workspaces/alse/SistemaAlquiler/include -g -std=gnu++17 -o CMakeFiles/SistemaAlquiler.dir/src/Vehiculo.cpp.o -c /workspaces/alse/SistemaAlquiler/src/Vehiculo.cpp",
+  "file": "/workspaces/alse/SistemaAlquiler/src/Vehiculo.cpp",
+  "output": "CMakeFiles/SistemaAlquiler.dir/src/Vehiculo.cpp.o"
+},
+{
+  "directory": "/workspaces/alse/SistemaAlquiler/build",
+  "command": "/usr/bin/g++  -I/workspaces/alse/SistemaAlquiler/include -g -std=gnu++17 -o CMakeFiles/SistemaAlquiler.dir/src/Auto.cpp.o -c /workspaces/alse/SistemaAlquiler/src/Auto.cpp",
+  "file": "/workspaces/alse/SistemaAlquiler/src/Auto.cpp",
+  "output": "CMakeFiles/SistemaAlquiler.dir/src/Auto.cpp.o"
+},
+{
+  "directory": "/workspaces/alse/SistemaAlquiler/build",
+  "command": "/usr/bin/g++  -I/workspaces/alse/SistemaAlquiler/include -g -std=gnu++17 -o CMakeFiles/SistemaAlquiler.dir/src/Bicicleta.cpp.o -c /workspaces/alse/SistemaAlquiler/src/Bicicleta.cpp",
+  "file": "/workspaces/alse/SistemaAlquiler/src/Bicicleta.cpp",
+  "output": "CMakeFiles/SistemaAlquiler.dir/src/Bicicleta.cpp.o"
+},
+{
+  "directory": "/workspaces/alse/SistemaAlquiler/build",
+  "command": "/usr/bin/g++  -I/workspaces/alse/SistemaAlquiler/include -g -std=gnu++17 -o CMakeFiles/SistemaAlquiler.dir/src/SistemaAlquiler.cpp.o -c /workspaces/alse/SistemaAlquiler/src/SistemaAlquiler.cpp",
+  "file": "/workspaces/alse/SistemaAlquiler/src/SistemaAlquiler.cpp",
+  "output": "CMakeFiles/SistemaAlquiler.dir/src/SistemaAlquiler.cpp.o"
+}
+]

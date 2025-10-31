@@ -1,0 +1,12 @@
+# Doxyfile 
+
+PROJECT_NAME           = "Proyecto Tienda Online"
+OUTPUT_DIRECTORY       = "docs"
+OPTIMIZE_OUTPUT_FOR_C    = NO
+EXTRACT_ALL              = YES
+GENERATE_LATEX           = NO
+RECURSIVE                = YES
+INPUT                    = include src
+FILE_PATTERNS            = *.h *.cpp
+GENERATE_TREEVIEW        = YES
+QUIET                    = YES
